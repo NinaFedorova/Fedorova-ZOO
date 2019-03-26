@@ -1,0 +1,426 @@
+/* Еще одно меню */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin,cyrillic);
+*{box-sizing: border-box;}
+
+body {
+  background-image:url('../images/3gO4.gif');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  margin: 0; 
+   font-family: 'Open Sans', sans-serif;
+}
+nav {
+  background: rgb(111, 135, 167);
+  box-shadow: 0 2px 0 0 #ECF1F2;
+  border-top: 1px solid #ECF1F2;
+  text-align: center;
+  text-decoration-style: double;
+  left: 250px;
+  position: fixed;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+  margin-right: -4px;
+  border-left: 1px solid #ECF1F2;
+}
+.topmenu > li:last-child {border-right: 1px solid rgb(111, 135, 167);}
+.topmenu > li > a {
+  font-weight: bold;
+  padding: 20px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.topmenu .active, .topmenu > li > a:hover, .submenu li a:hover {color: #b69250;}
+.submenu {
+  position: absolute;
+  left: -1px;
+  z-index: 5;
+  width: 240px;
+  border-bottom: 1px solid #ECF1F2;
+  visibility: hidden;
+  opacity: 0;  
+  transform: translateY(10px);
+  transition: .3s ease-in-out;
+}
+.submenu li {position: relative;}
+.submenu a {
+  background: rgb(111, 135, 167);
+  border-top: 1px solid #ECF1F2;
+  border-right: 1px solid #ECF1F2;
+  border-left: 1px solid #ECF1F2;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+}
+.submenu .submenu {
+  position: absolute;
+  top: 0;
+  left: calc(100% - 1px);
+  left: -webkit-calc(100% - 1px);
+}
+nav li:hover > .submenu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+  
+}
+.cl0{
+  width:1000px;
+  height:50px;
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  top:150px;
+  left:200px;
+}
+.cl1{
+  width:1000px;
+  height:300px;
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  border: 0px;
+  position: absolute;
+  top:350px;
+  left:200px;
+  }
+  .cl2-w{
+    width:630px;
+    height:630px;
+    display: inline-block;
+    margin-left: 250px;
+    padding: 0px;
+    border: 0px; 
+  }
+  .logo{
+    width:100px;
+    height:100px;
+    display: inline-block;
+    /*margin-left: 50px;*/
+    margin-top: 20px;
+    padding: 0px;
+    border: 0px;  
+  }
+  .cl2{
+    width:600px;
+    height:190px;
+    display: inline-block;
+    margin: 10px;
+    padding: 0px;
+    border: 0px;
+    /*position: absolute;
+    top:350px;
+    left:200px;*/
+    }  
+    .cl2-H{
+      width:1000px;
+      height:100px;
+      display: inline-block;
+      margin: 50px;
+      padding: 0px;
+      border: 0px;
+      font-size: 100px;
+      color: #b69250;
+      text-align: center;
+      font-style: unset;
+     /* position: absolute;
+      top:350px;
+      left:200px;  */
+    }
+.sm{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(84, 141, 93);
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding: 0px;
+  border: 0px;
+ }
+.ssm{
+  width: 170px;
+  height: 170px;
+  background-color: rgb(84, 141, 93);
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  border: 0px; 
+  text-align: center;
+  font-size: 18px;
+  font-style: inherit
+}
+
+.img1{
+  background: url(../images/birds/animals_44.gif) no-repeat center center;
+  background-size: cover;
+  transition: .3s;
+}
+.img1:hover{
+  background: url(../images/birds/сова2.gif) no-repeat center center;
+  background-size: cover;
+  transition: .3s ease-in-out;
+}
+.img2{
+  background: url(../images/birds/gwD.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;
+}
+.img2:hover{
+  background: url(../images/birds/Famous.gif) no-repeat center center; 
+  background-size: cover;
+  transition: .3s;
+}   
+.img3{
+  background: url(../images/birds/Z4zJ.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img3:hover{
+  background: url(../images/birds/MagnoliaWarbler.gif) no-repeat center center; 
+  background-size: cover;
+  transition: .3s;
+} 
+.img4{
+  background: url(../images/birds/9MO8-1.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img4:hover{
+  background: url(../images/birds/9MO8.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img5{
+  background: url(../images/birds/KWxT.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img5:hover{
+  background: url(../images/birds/KWxT.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img6{
+  background: url(../images/birds/fxTy.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img6:hover{
+  background: url(../images/birds/fxTy.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img7{
+  background: url(../images/birds/oOb.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img7:hover{
+  background: url(../images/birds/oOb.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img8{
+  background: url(../images/birds/Самый-маленький.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img9{
+  background: url(../images/birds/UW9F.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img9:hover{
+  background: url(../images/birds/UW9F.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img10{
+  background: url(../images/reptiles/g05r.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img10:hover{
+  background: url(../images/reptiles/g05r.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img11{
+  background: url(../images/reptiles/photo_pitona_11.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img12{
+  background: url(../images/reptiles/UmME.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img12:hover{
+  background: url(../images/reptiles/UmME.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img13{
+  background: url(../images/reptiles/V9fq.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img13:hover{
+  background: url(../images/reptiles/V9fq.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img14{
+  background: url(../images/reptiles/Детеныши.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img15{
+  background: url(../images/reptiles/чистим.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img15:hover{
+  background: url(../images/reptiles/чистим.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img16{
+  background: url(../images/reptiles/animals_27.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img16:hover{
+  background: url(../images/reptiles/animals_27.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img17{
+  background: url(../images/reptiles/g0bC.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img17:hover{
+  background: url(../images/reptiles/g0bC.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img18{
+  background: url(../images/reptiles/Z3Fh.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img18:hover{
+  background: url(../images/reptiles/Z3Fh.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img19{
+  background: url(../images/mammals/manchkin_01.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img19:hover{
+  background: url(../images/mammals/manchkin_01.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img20{
+  background: url(../images/mammals/gifki_s_kotjatami_07.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img20:hover{
+  background: url(../images/mammals/gifki_s_kotjatami_07.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img21{
+  background: url(../images/mammals/playing_kitten.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img21:hover{
+  background: url(../images/mammals/playing_kitten.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img22{
+  background: url(../images/mammals/чау-чау-1.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img23{
+  background: url(../images/mammals/щенок.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img23:hover{
+  background: url(../images/mammals/щенок.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s; 
+} 
+.img24{
+  background: url(../images/mammals/йоркширский_терьер-1.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+}
+.img25{
+  background: url(../images/mammals/Y7vQ.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img25:hover{
+  background: url(../images/mammals/Y7vQ.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s; 
+} 
+.img26{
+  background: url(../images/mammals/WY3.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img26:hover{
+  background: url(../images/mammals/WY3.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s; 
+} 
+.img27{
+  background: url(../images/mammals/Y7vJ.jpg) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s;  
+} 
+.img27:hover{
+  background: url(../images/mammals/Y7vJ.gif) no-repeat center center; 
+  background-size: cover; 
+  transition: .3s; 
+} 
+.img30{
+  background: url(../images/логотип.png) no-repeat center center;
+  background-size: cover; 
+}
