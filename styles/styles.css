@@ -84,13 +84,13 @@ nav li:hover > .submenu {
 }
 .cl0{
   width:1000px;
-  height:50px;
+  height:150px;
   display: inline-block;
   margin: 10px;
   padding: 0px;
   border: 0px;
   position: absolute;
-  top:150px;
+  top:220px;
   left:200px;
 }
 .cl1{
@@ -101,7 +101,7 @@ nav li:hover > .submenu {
   padding: 0px;
   border: 0px;
   position: absolute;
-  top:350px;
+  top:400px;
   left:200px;
   }
   .cl2-w{
@@ -109,6 +109,7 @@ nav li:hover > .submenu {
     height:630px;
     display: inline-block;
     margin-left: 280px;
+    margin-top: 20px;
     padding: 0px;
     border: 0px; 
   }
@@ -450,7 +451,4 @@ nav li:hover > .submenu {
 .img30{
   background: url(../images/логотип.png) no-repeat center center;
   background-size: cover; 
-}
-.map{
-
 }
