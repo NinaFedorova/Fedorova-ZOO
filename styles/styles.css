@@ -108,7 +108,7 @@ nav li:hover > .submenu {
     width:630px;
     height:630px;
     display: inline-block;
-    margin-left: 250px;
+    margin-left: 280px;
     padding: 0px;
     border: 0px; 
   }
@@ -117,15 +117,15 @@ nav li:hover > .submenu {
     height:100px;
     display: inline-block;
     /*margin-left: 50px;*/
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0px;
     border: 0px;  
   }
   .cl2{
     width:600px;
-    height:190px;
+    height:180px;
     display: inline-block;
-    margin: 10px;
+    /*margin: 10px;*/
     padding: 0px;
     border: 0px;
     /*position: absolute;
@@ -134,9 +134,9 @@ nav li:hover > .submenu {
     }  
     .cl2-H{
       width:1000px;
-      height:100px;
+      height:120px;
       display: inline-block;
-      margin: 50px;
+      margin-top: 80px;
       padding: 0px;
       border: 0px;
       font-size: 100px;
@@ -174,7 +174,34 @@ nav li:hover > .submenu {
   font-size: 18px;
   font-style: inherit
 }
-
+.container {
+  width: 700px;
+  height: 500px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.75);
+  /*padding: 20px 15px 10px 5px;
+  border-radius: 25px 15px 10px 5px;*/
+  margin-left: 250px;
+  /*margin-right: auto;*/
+  margin-top: 250px;
+  border-color: rgb(134, 100, 7);
+  border-style: solid;
+  border-width: 15px;
+  text-align: center;
+  /*transition:  25s all;*/
+}
+.map{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  background: url(../images/map.jpg) no-repeat center center;
+}
+.photo{
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+  background: url(../images/photo1.jpg) no-repeat center center; 
+}
 .img1{
   background: url(../images/birds/animals_44.gif) no-repeat center center;
   background-size: cover;
@@ -423,4 +450,7 @@ nav li:hover > .submenu {
 .img30{
   background: url(../images/логотип.png) no-repeat center center;
   background-size: cover; 
+}
+.map{
+
 }
