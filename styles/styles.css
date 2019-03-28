@@ -17,7 +17,7 @@ nav {
   border-top: 1px solid #ECF1F2;
   text-align: center;
   text-decoration-style: double;
-  left: 250px;
+  left: 350px;
   position: fixed;
 }
 nav a {
@@ -102,13 +102,13 @@ nav li:hover > .submenu {
   border: 0px;
   position: absolute;
   top:400px;
-  left:200px;
+  left:300px;
   }
   .cl2-w{
     width:630px;
     height:630px;
     display: inline-block;
-    margin-left: 280px;
+    margin-left: 350px;
     margin-top: 20px;
     padding: 0px;
     border: 0px; 
@@ -182,7 +182,7 @@ nav li:hover > .submenu {
   background-color: rgba(255, 255, 255, 0.75);
   /*padding: 20px 15px 10px 5px;
   border-radius: 25px 15px 10px 5px;*/
-  margin-left: 250px;
+  margin-left: 350px;
   /*margin-right: auto;*/
   margin-top: 250px;
   border-color: rgb(134, 100, 7);
